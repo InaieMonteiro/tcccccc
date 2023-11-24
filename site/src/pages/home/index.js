@@ -26,8 +26,7 @@ export default function () {
         <div className='Amaior'>
             <div className='cabecudo'>
                 <img src={logo} />
-                <a>CARDÁPIO</a>
-                <a>COMBOS</a>
+                <a href='http://localhost:3001/promo'>CARDÁPIO</a>
                 <a href='http://localhost:3000/contato'> CONTATO</a>
                 <button onClick={dastro}>Cadastre-se</button>
             </div>

@@ -24,6 +24,9 @@ import Bigcheddar from './pages/bigcheddar';
 import Bigonion from './pages/bigonion';
 import Fileduplo from './pages/fileduplo';
 import Bigvegano from './pages/bigvegano';
+import Promocoes from './pages/promocoes';
+import Frango from './pages/frango';
+import Vegano from './pages/vegano';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -50,6 +53,10 @@ root.render(
       <Route path='bigonion' element={<Bigonion/>} />
       <Route path='fileduplo' element={<Fileduplo/>} />
       <Route path='bigvegano' element={<Bigvegano/>} />
+      <Route path='promocoes' element={<Promocoes/>} />
+      <Route path='frango' element={<Frango/>} />
+      <Route path='vegano' element={<Vegano/>} />
+      
 
 
 
