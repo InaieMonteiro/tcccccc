@@ -1,0 +1,79 @@
+$primary-color: #FFFF00; // Amarelo
+$secondary-color: #000000; // Preto
+
+// Cabeçalho
+.header {
+  background: $primary-color;
+  color: $secondary-color;
+  padding: 20px;
+  text-align: center;
+  width: 100%; // Ocupa a largura total da tela
+
+  h1 {
+    font-size: 2.5em; // Aumentei o tamanho do texto
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    font-size: 1.5em; // Aumentei o tamanho do texto
+  }
+}
+
+// Container principal
+.container {
+  background: $secondary-color;
+  margin: 0 auto; // Centraliza o container
+  color: $primary-color; // Cor do texto dentro do container
+}
+
+// Seções
+.section {
+  margin: 20px 0;
+
+  // Funcionários
+  .employee {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid $primary-color;
+    background: $secondary-color;
+    transition: transform 0.3s ease-in-out;
+
+    h2 {
+      font-size: 2em; // Aumentei o tamanho do texto
+      margin-bottom: 0.5em;
+      color: $primary-color;
+    }
+
+    p {
+      font-size: 1.5em; // Aumentei o tamanho do texto
+      color: $primary-color;
+    }
+
+    &:hover {
+      transform: translateY(-10px); // Animação de subida
+    }
+  }
+}
+
+// Missão
+.mission {
+  background: $secondary-color;
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      font-size: 1.5em; // Aumentei o tamanho do texto
+      margin-bottom: 0.5em;
+      color: $primary-color;
+
+      &:before {
+        content: '\2022'; // Ponto de lista simples
+        color: $primary-color;
+        display: inline-block;
+        width: 1.2em; // Aumentei o tamanho do ponto
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
